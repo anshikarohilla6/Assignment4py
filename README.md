@@ -74,9 +74,23 @@ Python list equivalent:
 matrix_list = [[1, 2], [3, 4]]
 print(matrix_list)
 
+ques2 
+import numpy as np
+one_d=np.array([10,20,30,40])
+two_d=np.array([[1,2,3],
+                [4,5,6]])
+print("one-dimensional Array:")
+print(one_d)
+print("shape:", one_d.shape)
+print("dimension:",one_d.ndim)
+print("data Type:",one_d.dtype)
+
+print("\nTwo-Dimensional Array:")
+print(two_d)
+print("shape:",two_d.shape)
+print("dimension:",two_d.ndim)
+print("data Type:",two_d.dtype)
 
 
 
-6. Easy Integration
 
-Works well with Pandas, Matplotlib, SciPy, and machine learning libraries.
